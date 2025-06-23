@@ -3,13 +3,11 @@ author: Sat Naing
 pubDatetime: 2025-06-23T11:17:00Z
 title: 基于XtraBackup的Docker化MySQL备份与恢复权威指南
 slug: dockerized-mysql-backup-and-recovery-guide-with-xtrabackup
-featured: true
+featured: false
 draft: false
 tags:
   - docs
-description:
-  Some rules & recommendations for creating or adding new posts using AstroPaper
-  theme.
+description: 基于XtraBackup的Docker化MySQL备份与恢复权威指南
 ---
 
 ## 方案概述
