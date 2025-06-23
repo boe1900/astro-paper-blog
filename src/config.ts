@@ -1,9 +1,9 @@
 export const SITE = {
   website: "https://blog.cola1900.eu.org/", // replace this with your deployed domain
-  author: "Dola",
+  author: "Cola",
   profile: "",
   desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "Dola's Blog",
+  title: "Cola's Blog",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerIndex: 4,
@@ -18,5 +18,5 @@ export const SITE = {
   },
   dynamicOgImage: true,
   lang: "en", // html lang code. Set this empty and default will be "en"
-  timezone: "Asia/Bangkok", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  timezone: "Asia/Shanghai", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 } as const;
