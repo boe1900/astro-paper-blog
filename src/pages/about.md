@@ -3,34 +3,34 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+## 关于我
+欢迎来到我的数字气泡宇宙！
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+我是 Cola，一名热爱探索代码与生活的创造者。这个小站不仅仅是一个博客，更是我用来捕捉、发酵和分享那些如汽水气泡般不断涌现的灵感与想法的地方。
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+在这里，每一篇文章都是一个独特的气泡。有些气泡承载着一段代码的深度解析，有些则包裹着对某个技术趋势的奇思妙想，还有一些，可能只是记录了我在数字世界漫游时的一点点感悟和惊喜。
 
-<div>
-  <img src="/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+我相信，伟大的想法往往源于微小的火花碰撞。我希望这个空间能成为一个碰撞场，当我的“气泡”与你的思想相遇，或许就能激荡出更绚烂的火花。
 
-## Tech Stack
+## 我的配方（技术栈）
+在我的日常创造中，我主要依赖以下技术组合来构建和实现我的想法：
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+- Java: 我最信赖的后端语言，如同坚固的基石，为复杂的系统和服务提供稳定、强大的支持。
 
-## Features
+- Vue: 构建用户界面的首选框架，它优雅而高效，能将冰冷的数据转化为富有生命力的交互体验。
 
-Here are certain features of this site.
+(至于这个博客本身，它是由 Astro 驱动的。我选择它，是因为它能让我专注于一件事：用最纯粹的方式，将我的思考和发现分享给你。)
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
+## 风味特色（本站特性）
+在这里，你可以期待以下体验：
 
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+- 口味纯正: 无论在桌面还是手机，都能享受始终如一的完美阅读体验。
+- 开盖即饮: 极速加载，绝不让你的灵感在等待中冷却。
+- 气泡搜索: 内置模糊搜索功能，帮你迅速找到沉在瓶底的宝藏想法。
+- 灵感保鲜: 支持明暗两种阅读模式，在任何光线下都能舒适地品味。
+- 持续供应: 分页、归档、RSS 订阅一应俱全，让你不错过任何一个新“气泡”。
+
+## 一起碰个杯？
+如果这里的某个“气泡”恰好也让你眼前一亮，我非常期待能与你直接交流！无论是技术探讨、灵感碰撞，还是单纯地想打个招呼，都欢迎随时通过[email](mailto:756560490@qq.com)找到我。
+
+让我们一起，为这个世界增添更多值得回味的想法吧！
