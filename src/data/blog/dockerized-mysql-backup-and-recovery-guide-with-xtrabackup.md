@@ -1,5 +1,5 @@
 ---
-author: Sat Naing
+author: Cola
 pubDatetime: 2025-06-23T11:17:00Z
 title: 基于XtraBackup的Docker化MySQL备份与恢复权威指南
 slug: dockerized-mysql-backup-and-recovery-guide-with-xtrabackup
