@@ -6,7 +6,7 @@ slug: dockerized-mysql-backup-and-recovery-guide-with-xtrabackup
 featured: false
 draft: false
 tags:
-  - docs
+  - MySQL
 description: 本指南提供了一个基于 Percona XtraBackup 的、企业级的 Docker 化 MySQL 备份与恢复方案。该方案采用 Sidecar（边车）模式，将备份逻辑与主数据库服务分离，实现了高内聚、低耦合的系统架构，确保了备份过程的安全、高效与可靠。
 ---
 
