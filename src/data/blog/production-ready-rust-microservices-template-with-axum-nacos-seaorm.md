@@ -1,6 +1,6 @@
 ---
 author: Cola
-pubDatetime: 2025-12-10T14:34:00Z
+pubDatetime: 2025-12-10T14:34:00+08:00
 title: Rust 微服务实战：基于 Axum 0.8 与 Nacos 的生产级模板
 slug: production-ready-rust-microservices-template-with-axum-nacos-seaorm
 featured: false
