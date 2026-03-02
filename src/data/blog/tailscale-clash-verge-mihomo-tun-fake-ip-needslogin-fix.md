@@ -1,6 +1,6 @@
 ---
 author: Cola
-pubDatetime: 2026-03-02T21:00:00+08:00
+pubDatetime: 2026-03-02T10:30:00+08:00
 title: Tailscale + Clash Verge（Mihomo）排障记录：修复 TUN + fake-ip 导致的 NeedsLogin
 slug: tailscale-clash-verge-mihomo-tun-fake-ip-needslogin-fix
 featured: false
