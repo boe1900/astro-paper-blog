@@ -357,6 +357,38 @@ sudo chown -R 999:999 ./data/mysql/data
 docker-compose start rcbp-mysql
 ```
 
+## 补充：一键快速恢复工具（`mysql-restore`）
+
+如果您已经理解了本指南的原理，但在实际操作时仍希望减少手动步骤，我另外整理了一个可直接使用的小项目：
+
+- 项目地址：[boe1900/mysql-restore](https://github.com/boe1900/mysql-restore)
+- 核心目标：基于 `*_full + *_inc` 备份结构，自动完成“选择备份周期 -> prepare -> copy-back -> 拉起可访问 MySQL”这一整套流程。
+
+#### 快速开始
+
+```sh
+git clone https://github.com/boe1900/mysql-restore.git
+cd mysql-restore
+./run-restore.sh --backup-dir /你的备份目录
+```
+
+默认会恢复“最新全量备份 + 同周期增量备份”，并将 MySQL 暴露到 `3307` 端口，方便您直接验证恢复结果。
+
+#### 常见用法
+
+```sh
+# 指定某个全量备份时间点恢复（例如 20250622_190001_full）
+./run-restore.sh --backup-dir /你的备份目录 --full 20250622_190001
+
+# 强制覆盖已有恢复数据
+./run-restore.sh --backup-dir /你的备份目录 --force
+
+# 自定义映射端口
+./run-restore.sh --backup-dir /你的备份目录 --port 3310
+```
+
+> 建议将此工具用于“快速恢复验证”与“演练场景”，而生产环境恢复仍建议按本文主流程逐步执行并保留完整操作记录。
+
 ## 步骤 4: 自动化与备份策略
 
 #### 自动化任务设置
@@ -479,4 +511,3 @@ docker run --rm ^
   alpine ^
   tar -zxvf /source/mysql_backup_cycle.tar.gz -C /destination
 ```
-
